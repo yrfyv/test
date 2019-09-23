@@ -1,0 +1,179 @@
+body{
+  background-image: url(background.jpg);
+  background-color: grey;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navBar {
+  position: fixed;
+  overflow: hidden;
+  background-color: rgba(178,34,34,0.7);
+  color: rgba(255, 255, 255, 1);
+
+  box-sizing: inherit;
+  padding: 30px 30px;
+
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-shadow: 3px 2px 2px rgba(0,0,0,5);
+  color: white;
+  text-align: left;
+  }
+
+/* ME css */ 
+#profilePic{  
+  border-radius: 50% 20% / 10% 40%;
+  border: 1.5px solid white;
+  width: 150px;
+  height: 150px;
+}
+#alec{
+  font-size: 17px;
+}
+
+#dev{
+  font-size: 10px;
+}
+
+.aboutME {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+
+}
+#linksList {
+  list-style: none;
+  padding: 40px 0px;
+  line-height: 250%;
+}
+
+#socialBlock{
+ margin-top: 35%;
+}
+
+
+.homeSectionInner{
+  max-width: 840px;
+  margin-left: 30%;
+  margin-top: 10%;
+  box-sizing: inherit;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.homeSubheading{
+  text-shadow: 3px 2px 2px black;
+  line-height: 200%;
+
+}
+li:hover:after {
+  color: white;
+  /* content: " > "; */
+  text-decoration: overline;
+  font-size: 18px;}
+
+a:hover {
+  color: white;}
+
+a {
+  text-decoration: none;
+  text-align: left;
+  color: rgb(211,211,211);}
+
+h1{
+ text-shadow: 3px 2px 2px red; 
+}
+
+#HmBtn{
+  text-shadow: 3px 2px 2px black;
+}
+
+.homeButton1:hover, .homeButton2:hover {
+  border-color: rgb(178,34,34);
+  text-shadow: 3px 2px 2px black;}
+
+.homeButton1{
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  padding: .4em .8em;
+  line-height: 1em;
+  margin-right: 1em;
+  font-weight: 100;}
+
+.homeButton2{
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  padding: .4em .8em;
+  line-height: 1em;
+  margin-right: 1em;
+  margin-top: 3%; 
+}
+
+.buttons{
+  margin-top: 10%;
+}
+
+
+.homeButton1, .homeButton2 {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+

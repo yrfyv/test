@@ -1,0 +1,47 @@
+  #me{
+    border-radius: 50% 20% / 10% 40%;
+    border: 2px solid grey;
+    width: 80px;
+    height: 80px;
+  }
+
+  .me {
+    float: left;
+    width: 10%;
+  }
+
+  .me-content {
+    text-align: center;
+  }
+
+  .title {
+    position:static;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu{
+    margin: 0px auto 0px auto;
+    height: 250px;
+    position: relative;
+    width: 66.67%;
+  }
+
+  .link{
+    float: left;
+    padding: 20px;
+    border-radius: 80%;
+    text-align: center;
+    width: 33.3%;
+    box-sizing: border-box;
+  }
+
+  #imgUrl{
+    border-radius: 80%;
+    width: 85%;
+  }
+  #imgUrl:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+  }

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href='css/global.css' rel='stylesheet' type='text/css'>
+    <link href='css/form.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/social.css" media="screen"  charset="utf-8">
+    <link rel="stylesheet" href="css/media.css" media="screen"  charset="utf-8">
+    <link rel="stylesheet" href="css/contact.css" media="screen"  charset="utf-8">
+    <link rel="icon" href="img/AY.png" media="screen" title="icon" charset="utf-8">
+    <link rel="stylesheet" href="css/iphoneicon.css" media="screen"  charset="utf-8">
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <title>Alec.Yerofeye</title>
+
+    <script>
+      function initialize() {
+      var mapProp = {
+          center:new google.maps.LatLng(37.7749,-122.4194),
+          zoom:11,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
+  </head>
+
+  <body>
+    <main class="content">
+      <header>
+        <div class="x">
+          <a href="index.html">
+            <h2 id="xId">Home</h2>
+          </a>
+        </div>
+        <div class="title">
+          <img src="img/mail.png" class="imgHeader" />
+        </div>
+        <div class="title">
+        <h1>Contact</h1>
+        <p>Get in touch with me<p>
+        </div>
+
+          <hr style="clear:both;">
+      </header>
+
+    <div class="map">
+      <div class="block">
+
+        <table>
+          <tbody>
+            <tr>
+              <td class="font-weight">Address</td>
+              <td class="text-right">San Francisco, CA</td>
+          </tr>
+
+          <tr>
+            <td class="font-weight">Phone</td>
+            <td class="text-right">
+              <a href="tel:+19255506267">+1 925 550 6267</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="font-weight">E-mail</td>
+            <td class="text-right">
+              <a href="mailto:alec.yerofeyev@gmail.com">alec.yerofeyev@gmail.com</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="font-weight">Skype</td>
+            <td class="text-right">yeroleg2010</td>
+          </tr>
+
+
+          </tbody>
+      </table>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/oleg-yerofeyev-733a3510b"target="_blank">
+          <img src="img/li.png" id="icon" />
+        </a>
+
+        <a href="https://github.com/yeroleg" target="_blank">
+          <img src="img/gh.png" id="icon" />
+        </a>
+
+        <a href="https://www.facebook.com/yerofeye.o" target="_blank">
+          <img src="img/fb.png" id="icon" />
+        </a>
+
+        <a href="https://www.instagram.com/yerofeyev/" target="_blank">
+          <img src="img/in.png" id="icon" />
+        </a>
+      </div>
+      </div>
+
+      <div id="googleMap" src=""></div>
+
+    </div>
+
+
+<br>
+    <div class="form">
+    <form action="MAILTO:alec.yerofeyev@gmail.com" method="post" enctype="text/plain" id="form" >
+        <input type="text" id="user" placeholder="Name">
+        <input type="email" id="user" placeholder="Email">
+        <textarea id="message" placeholder="Message"></textarea>
+        <div class="footer-form">
+        <input type="submit" id="btn"value="Send Message">
+      </div>
+      </form>
+    </div>
+</main>
+
+<script type="text/javascript">
+$('body').click(function(e){
+    if (e.target === this) {
+        window.location = "index.html"
+    }
+});
+</script>
+
+</body>
+</html>
